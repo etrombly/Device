@@ -3,8 +3,8 @@
 typedef struct {					// Radio packet format
 uint8_t	nodeID;						// node identifier
 uint8_t	devID;						// device identifier
-uint8_t packetID;
 uint8_t	cmd;						// read or write
+uint8_t packetID;
 long	intVal;						// integer payload
 float	fltVal;						// floating payload
 char	payLoad[32];					// string payload
